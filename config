@@ -13,7 +13,8 @@
         "ConstantinopleFix",
         "Istanbul",
         "Berlin",
-        "London"
+        "London",
+        "London+3540+3670"
     ],
     "additionalForks" : [
         "FrontierToHomesteadAt5",
@@ -23,8 +24,7 @@
         "ByzantiumToConstantinopleFixAt5",
         "BerlinToLondonAt5",
         "ArrowGlacier",
-        "Merge",
-        "London+3540+3670"
+        "Merge"
     ],
     "exceptions" : {
       "AddressTooShort" : "input string too short for common.Address",
