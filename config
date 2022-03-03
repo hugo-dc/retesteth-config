@@ -23,7 +23,8 @@
         "ByzantiumToConstantinopleFixAt5",
         "BerlinToLondonAt5",
         "ArrowGlacier",
-        "Merge"
+        "Merge",
+        "London+3540+3670"
     ],
     "exceptions" : {
       "AddressTooShort" : "input string too short for common.Address",
