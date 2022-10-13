@@ -194,6 +194,7 @@
       "TR_NoFundsValue" : "insufficient funds for transfer",
       "TR_FeeCapLessThanBlocks" : "max fee per gas less than block base fee",
       "TR_GasLimitReached" : "gas limit reached",
+      "TR_NonceHasMaxValue" : "nonce has max value: ",
       "TR_NonceTooHigh" : "nonce too high",
       "TR_NonceTooLow" : "nonce too low",
       "TR_TypeNotSupported" : "transaction type not supported",
