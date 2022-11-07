@@ -1,13 +1,9 @@
 {
-    "name" : "Ethereum GO on StateTool",
+    "name" : "Ethereum GO on StateTool + Custom EIP",
     "socketType" : "tranition-tool",
     "socketAddress" : "start.sh",
     "checkLogsHash" : true,
     "chainID" : 1,
-    "customCompilers" : {
-        ":yul" : "yul.sh",
-        ":mycompiler" : "mycompiler.sh"
-    },
     "forks" : [
         "Frontier",
         "Homestead",
@@ -19,6 +15,7 @@
         "Istanbul",
         "Berlin",
         "London",
+        "London+1884",
         "Merge"
     ],
     "additionalForks" : [

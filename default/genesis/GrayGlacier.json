@@ -1,7 +1,6 @@
 {
     "params" : {
-        "fork" : "Merged",
-        "terminalTotalDifficulty" : "0x00",
+        "fork" : "GrayGlacier",
         "constantinopleForkBlock" : "0x00",
         "byzantiumForkBlock" : "0x00",
         "homesteadForkBlock" : "0x00"
