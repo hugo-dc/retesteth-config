@@ -31,7 +31,8 @@
         "ArrowGlacier",
         "ArrowGlacierToMergeAtDiffC0000",
         "GrayGlacier",
-        "London+3540+3670"
+        "London+3540+3670",
+        "London+3540+3670+4200"
     ],
     "exceptions" : {
       "AddressTooShort" : "input string too short for common.Address",
