@@ -3,7 +3,6 @@
     "socketType" : "tranition-tool",
     "socketAddress" : "start.sh",
     "checkLogsHash" : true,
-    "chainID" : 1,
     "customCompilers" : {
         ":yul" : "yul.sh",
         ":mycompiler" : "mycompiler.sh"
@@ -31,8 +30,8 @@
         "ArrowGlacier",
         "ArrowGlacierToMergeAtDiffC0000",
         "GrayGlacier",
-        "London+3540+3670",
-        "London+3540+3670+4200"
+        "Merge+3540+3670"
+        "Merge+3540+3670+4200"
     ],
     "exceptions" : {
       "AddressTooShort" : "input string too short for common.Address",
