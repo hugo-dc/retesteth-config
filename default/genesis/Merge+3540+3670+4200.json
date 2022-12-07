@@ -3,8 +3,7 @@
         "fork" : "Shanghai",
         "constantinopleForkBlock" : "0x00",
         "byzantiumForkBlock" : "0x00",
-        "homesteadForkBlock" : "0x00",
-        "terminalTotalDifficulty" : "58750000000000000000000"
+        "homesteadForkBlock" : "0x00"
     },
     "accounts" : {
     }

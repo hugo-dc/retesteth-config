@@ -14,8 +14,7 @@
     "GrayGlacier" :      "2000000000000000000",
     "Shanghai" :      "2000000000000000000",
     "Merge+3540+3670" :      "2000000000000000000",
-    "Merged+3540+3670" :      "2000000000000000000",
-    "Merged+3540+3670+4200" :      "2000000000000000000",
+    "Merge+3540+3670+4200" :      "2000000000000000000",
 
     "//comment" : "Retesteth calculate rewards on behalf of the tool when filling state tests",
     "YOLOv1" :           "2000000000000000000",
