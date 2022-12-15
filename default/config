@@ -33,6 +33,8 @@
         "GrayGlacier",
         "Merge+3540+3670"
         "Merge+3540+3670+4200"
+        "Merge+3540+3670+4200+4750"
+        "Merge+3540+3670+4200+5450"
     ],
     "exceptions" : {
       "AddressTooShort" : "input string too short for common.Address",
