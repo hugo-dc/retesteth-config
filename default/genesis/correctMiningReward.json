@@ -12,10 +12,6 @@
     "London" :           "2000000000000000000",
     "ArrowGlacier" :     "2000000000000000000",
     "GrayGlacier" :      "2000000000000000000",
-    "Shanghai" :      "2000000000000000000",
-    "Merge+3540+3670" :      "2000000000000000000",
-    "Merge+3540+3670+4200" :      "2000000000000000000",
-    "Merge+3540+3670+4200+4750" :      "2000000000000000000",
 
     "//comment" : "Retesteth calculate rewards on behalf of the tool when filling state tests",
     "YOLOv1" :           "2000000000000000000",
@@ -23,5 +19,7 @@
     "YOLOv3" :           "2000000000000000000",
     "Aleut"  :           "2000000000000000000",
     "Merge"  :           "0",
-    "Merged"  :          "0"
+    "Merged"  :          "0",
+    "Shanghai" :         "0"
+
 }

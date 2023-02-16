@@ -1,6 +1,6 @@
 #!/bin/sh
 if [ $1 = "-v" ]; then
-    evm -v
+    /Users/rodia/projects/evmone/build/bin/evmone-t8n -v
 else
     stateProvided=0
     readErrorLog=0
@@ -23,8 +23,8 @@ else
         fi
     done
     if [ $stateProvided -eq 1 ]; then
-        evm t8n $cmdArgs --verbosity 2 2> $errorLogFile
+        /Users/rodia/projects/evmone/build/bin/evmone-t8n $cmdArgs 2> $errorLogFile
     else
-        evm t9n $cmdArgs 2> $errorLogFile
+        exit 13
     fi
 fi

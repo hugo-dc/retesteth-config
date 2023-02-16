@@ -1,7 +1,8 @@
 {
-    "name" : "Ethereum GO on StateTool",
+    "name" : "evmone",
     "socketType" : "tranition-tool",
     "socketAddress" : "start.sh",
+    "transactionsAsJson" : true,
     "checkLogsHash" : true,
     "checkBasefee" : true,
     "defaultChainID" : 1,
@@ -21,7 +22,7 @@
         "Berlin",
         "London",
         "Merge",
-        "Shanghai"
+	"Shanghai"
     ],
     "additionalForks" : [
         "FrontierToHomesteadAt5",
@@ -37,7 +38,7 @@
     "fillerSkipForks" : [
         "Merge+3540+3670",
         "Merge+3860",
-        "MergeToShanghaiAtTime15k"
+        "MergeToShanghaiAt5"
     ],
     "exceptions" : {
       "AddressTooShort" : "input string too short for common.Address",
