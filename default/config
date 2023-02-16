@@ -5,6 +5,7 @@
     "checkLogsHash" : true,
     "customCompilers" : {
         ":yul" : "yul.sh",
+        ":yul-eof" :"yul-eof.sh",
         ":mycompiler" : "mycompiler.sh"
     },
     "forks" : [
