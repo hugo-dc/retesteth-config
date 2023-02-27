@@ -1,0 +1,8 @@
+{
+    "params" : {
+        "fork" : "ETC_Agharta",
+        "chainID" : "0x3d"
+    },
+    "accounts" : {
+    }
+}
