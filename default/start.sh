@@ -1,6 +1,6 @@
 #!/bin/sh
 if [ $1 = "-v" ]; then
-    evm -v
+    /bin/evm -v
 else
     stateProvided=0
     readErrorLog=0
@@ -22,8 +22,8 @@ else
         cmdArgs=$cmdArgs" "$index
     done
     if [ $stateProvided -eq 1 ]; then
-        evm t8n $cmdArgs --verbosity 2 2> $errorLogFile
+        /bin/evm t8n $cmdArgs --verbosity 2 2> $errorLogFile
     else
-        evm t9n $cmdArgs 2> $errorLogFile
+        /bin/evm t9n $cmdArgs 2> $errorLogFile
     fi
 fi

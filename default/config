@@ -7,7 +7,8 @@
     "defaultChainID" : 1,
     "customCompilers" : {
         ":yul" : "yul.sh",
-        ":mycompiler" : "mycompiler.sh"
+        ":mycompiler" : "mycompiler.sh",
+        ":yul-eof" : "yul-eof.sh"
     },
     "forks" : [
         "Frontier",
@@ -20,7 +21,8 @@
         "Istanbul",
         "Berlin",
         "London",
-        "Merge"
+        "Merge",
+        "Shanghai"
     ],
     "additionalForks" : [
         "FrontierToHomesteadAt5",
