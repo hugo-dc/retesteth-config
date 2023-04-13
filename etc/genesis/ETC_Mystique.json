@@ -1,0 +1,8 @@
+{
+    "params" : {
+        "fork" : "ETC_Mystique",
+        "chainID" : "0x3d"
+    },
+    "accounts" : {
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "params" : {
+        "fork" : "ETC_Magneto",
+        "chainID" : "0x3d"
+    },
+    "accounts" : {
+    }
+}
