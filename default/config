@@ -14,6 +14,7 @@
     "defaultChainID" : 1,
     "customCompilers" : {
         ":yul" : "yul.sh",
+        ":yul-eof" : "yul-eof.sh",
         ":mycompiler" : "mycompiler.sh"
     },
     "forks" : [
@@ -242,6 +243,15 @@
       "INPUT_UNMARSHAL_SIZE_ERROR" : "failed unmarshaling",
       "RLP_BODY_UNMARSHAL_ERROR" : "Rlp structure is wrong",
       "PostMergeUncleHashIsNotEmpty" : "block.uncleHash != empty",
-      "PostMergeDifficultyIsNot0" : "block.difficulty must be 0"
+      "PostMergeDifficultyIsNot0" : "block.difficulty must be 0",
+      "EOF_ConflictingStackHeight": "err(19): conflicting stack height",
+      "EOF_StackUnderflow" : "err(0): stack underflow",
+      "EOF_InvalidCodeTermination" : "err(23): invalid code termination",
+      "EOF_MaxStackHeightExceeded" : "err(12): invalid type content, max stack height exceeds limit",
+      "EOF_UnreachableCode": "err(24): unreachable code",
+      "EOF_InvalidCode": "err: Invalid Code",
+      "EOF_TruncatedImmediate": "err(16): truncated immediate",
+      "EOF_InvalidJumpDestination": "err(18): invalid jump destination",
+      "EOF_InvalidJumpTableCount": "err(20): invalid number of branches in jump table"
     }
 }
