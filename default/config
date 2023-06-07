@@ -231,6 +231,26 @@
       "3675PreMerge1559BlockRejected" : "Trying to import 1559 block on top of PoS block",
       "INPUT_UNMARSHAL_ERROR" : "cannot unmarshal hex",
       "INPUT_UNMARSHAL_SIZE_ERROR" : "failed unmarshaling",
-      "RLP_BODY_UNMARSHAL_ERROR" : "Rlp structure is wrong"
+      "RLP_BODY_UNMARSHAL_ERROR" : "Rlp structure is wrong",
+      "EOF_InvalidCode" : "err: Invalid Code",
+      "EOF_TruncatedImmediate" : "err(16): truncated immediate",
+      "EOF_InvalidJumpDestination" : "err(18): invalid jump destination",
+      "EOF_InvalidJumpTableCount": "err(20): invalid number of branches in jump table",
+      "EOF_TypeSectionMissing": "err(4): missing type header",
+      "EOF_CodeSectionMissing": "err(6): missing code header",
+      "EOF_InvalidSectionBodiesSize" : "err(5): invalid type section size",
+      "EOF_InvalidTypeSectionSize" : "err(5): invalid type section size",
+      "EOF_InvalidFirstSectionType" : "err(0): invalid section 0 type, input and output should be zero",
+      "EOF_TooManyCodeSections" : "err(0): too many code sections",
+      "EOF_InvalidCodeSectionIndex" : "err(17): invalid section argument",
+      "EOF_UndefinedInstruction": "err(15): undefined instruction",
+      "EOF_ZeroSectionSize": "err(13): invalid code size",
+      "EOF_StackUnderflow" : "err(0): stack underflow",
+      "EOF_NonEmptyStackOnTerminatingInstruction" : "err(21): invalid number of outputs",
+      "EOF_MaxStackHeightExceeded" : "err(12): invalid type content, max stack height exceeds limit",
+      "EOF_StackOverflow" : "err(0): stack limit reached 1026 (1024)",
+      "EOF_ConflictingStackHeight" : "err(19): conflicting stack height",
+      "EOF_InvalidCodeTermination" : "err(23): invalid code termination",
+      "EOF_UnreachableCode" : "err(24): unreachable code"
     }
 }
