@@ -238,6 +238,7 @@
       "EOF_InvalidJumpTableCount": "err(20): invalid number of branches in jump table",
       "EOF_TypeSectionMissing": "err(4): missing type header",
       "EOF_CodeSectionMissing": "err(6): missing code header",
+      "EOF_DataSectionMissing": "err(8): missing data header",
       "EOF_InvalidSectionBodiesSize" : "err(5): invalid type section size",
       "EOF_InvalidTypeSectionSize" : "err(5): invalid type section size",
       "EOF_InvalidFirstSectionType" : "err(0): invalid section 0 type, input and output should be zero",
@@ -247,10 +248,17 @@
       "EOF_ZeroSectionSize": "err(13): invalid code size",
       "EOF_StackUnderflow" : "err(0): stack underflow",
       "EOF_NonEmptyStackOnTerminatingInstruction" : "err(21): invalid number of outputs",
+      "EOF_InvalidNumberOfOutputs": "err(21): invalid number of outputs",
       "EOF_MaxStackHeightExceeded" : "err(12): invalid type content, max stack height exceeds limit",
-      "EOF_StackOverflow" : "err(0): stack limit reached 1026 (1024)",
+      "EOF_StackOverflow" : "err(0): stack overflow",
       "EOF_ConflictingStackHeight" : "err(19): conflicting stack height",
       "EOF_InvalidCodeTermination" : "err(23): invalid code termination",
-      "EOF_UnreachableCode" : "err(24): unreachable code"
+      "EOF_UnreachableCode" : "err(24): unreachable code",
+      "EOF_InvalidContainerSize" : "err(14): invalid container size",
+      "EOF_MissingHeaderTerminator" : "err(9): missing header terminator",
+      "EOF_InvalidMaxStackHeight": "err(22): invalid max stack height",
+      "EOF_InvalidMagic": "err(2): invalid magic",
+      "EOF_InvalidVersion": "err(3): invalid version",
+      "EOF_InvalidSectionSize": "err(13): invalid code size"
     }
 }

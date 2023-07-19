@@ -12,7 +12,6 @@ elif [ $1 = "-v" ]; then
     evm -v
 elif [ $1 = "eof" ]; then
     evm eof $2 $3 $4 $5
-    echo "evm eof $2 $3 $4 $5" > ~/command.txt
 else
     stateProvided=0
     readErrorLog=0
