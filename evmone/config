@@ -250,7 +250,7 @@
       "EOF_UndefinedInstruction": "err: undefined_instruction",
       "EOF_InvalidSectionSize": "err: zero_section_size",
       "EOF_StackUnderflow": "err: stack_underflow",
-      "EOF_InvalidNumberOfOutputs": "err: non_empty_stack_on_terminating_instruction",
+      "EOF_InvalidNumberOfOutputs": "err: stack_higher_than_outputs_required",
       "EOF_MaxStackHeightExceeded": "err: max_stack_height_above_limit",
       "EOF_StackOverflow": "err: stack_overflow",
       "EOF_ConflictingStackHeight": "err: stack_height_mismatch",
@@ -260,7 +260,9 @@
       "EOF_InvalidContainerSize": "err: invalid_section_bodies_size",
       "EOF_MissingHeaderTerminator": "err: header_terminator_missing",
       "EOF_InvalidMaxStackHeight": "err: invalid_max_stack_height",
-      "EOF_InvalidVersion": "err: eof_version_unknown"
+      "EOF_InvalidVersion": "err: eof_version_unknown",
+      "EOF_InvalidSectionBodiesSize": "err: invalid_section_bodies_size",
+      "EOF_StackHeightMismatch": "err: stack_height_mismatch"
 
     }
 }
