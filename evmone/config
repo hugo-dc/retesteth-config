@@ -237,12 +237,15 @@
       "INPUT_UNMARSHAL_SIZE_ERROR" : "failed unmarshaling",
       "RLP_BODY_UNMARSHAL_ERROR" : "Rlp structure is wrong",
       "EOF_InvalidCode" : "err: invalid_code",
-      "EOF_TruncatedImmediate": "err: truncated_instruction",
+      "EOF_InvalidPrefix" : "err: invalid_prefix",
+      "EOF_UnknownVersion" : "err: eof_version_unknown",
+      "EOF_TruncatedInstruction": "err: truncated_instruction",
       "EOF_InvalidJumpDestination": "err: invalid_rjump_destination",
       "EOF_InvalidJumpTableCount": "err: invalid_rjumpv_count",
       "EOF_TypeSectionMissing": "err: type_section_missing",
       "EOF_CodeSectionMissing": "err: code_section_missing",
       "EOF_DataSectionMissing": "err: data_section_missing",
+      "EOF_HeaderTerminatorMissing": "err: header_terminator_missing",
       "EOF_InvalidTypeSectionSize": "err: invalid_type_section_size",
       "EOF_InvalidFirstSectionType": "err: invalid_first_section_type",
       "EOF_TooManyCodeSections": "err: too_many_code_sections",
@@ -258,11 +261,14 @@
       "EOF_UnreachableCode": "err: unreachable_instructions",
       "EOF_InvalidMagic": "err: invalid_prefix",
       "EOF_InvalidContainerSize": "err: invalid_section_bodies_size",
-      "EOF_MissingHeaderTerminator": "err: header_terminator_missing",
       "EOF_InvalidMaxStackHeight": "err: invalid_max_stack_height",
       "EOF_InvalidVersion": "err: eof_version_unknown",
-      "EOF_InvalidSectionBodiesSize": "err: invalid_section_bodies_size",
-      "EOF_StackHeightMismatch": "err: stack_height_mismatch"
+      "EOF_StackHeightMismatch": "err: stack_height_mismatch",
+      "EOF_SectionHeadersNotTerminated": "err: section_headers_not_terminated",
+      "EOF_IncompleteSectionSize" : "err: incomplete_section_size",
+      "EOF_ZeroSectionSize": "err: zero_section_size",
+      "EOF_IncompleteSectionNumber": "err: incomplete_section_number",
+      "EOF_InvalidSectionBodiesSize": "err: invalid_section_bodies_size"
 
     }
 }
