@@ -268,7 +268,7 @@
       "EOF_IncompleteSectionSize" : "err: incomplete_section_size",
       "EOF_ZeroSectionSize": "err: zero_section_size",
       "EOF_IncompleteSectionNumber": "err: incomplete_section_number",
-      "EOF_InvalidSectionBodiesSize": "err: invalid_section_bodies_size"
-
+      "EOF_InvalidSectionBodiesSize": "err: invalid_section_bodies_size",
+      "EOF_InvalidNonReturningFlag" : "err: invalid_non_returning_flag"
     }
 }
