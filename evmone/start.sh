@@ -13,7 +13,15 @@ elif [ $1 = "-v" ]; then
     evmone-t8n -v
 elif [ $1 = "eof" ]; then
   #echo "2: $2 3: $3 4: $4 5: $5"
-  echo $5 | evmone-eofparse --fork $3 
+  result=$(echo $5 | evmone-eofparse --fork $3)
+  echo $result | grep "OK" > /dev/null
+  if [ $? -eq 0 ]; then
+    echo "ok."
+  else
+    echo "$result"
+  fi
+
+
 else
     stateProvided=0
     readErrorLog=0
